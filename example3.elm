@@ -77,7 +77,7 @@ viewValidation model =
 validateAgeString : String -> Bool
 validateAgeString stringAge =
   case String.toInt stringAge of
-    Ok age ->
+    Ok _ ->
       True
     Err _ ->
       False
