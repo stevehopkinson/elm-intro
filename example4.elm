@@ -77,7 +77,7 @@ faceMapper (x, y) =
   circle
     [ cx (toString x)
     , cy (toString y)
-    , r "0.05"
+    , r "0.07"
     ] []
 
 dieFace : Int -> Svg Msg
